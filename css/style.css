@@ -8,6 +8,26 @@ body {
   background: #202020;
 }
 
+/* ------------ Navbar ------------ */
+a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  color: #fff;
+}
+
+a:hover {
+  background-color: #696969;
+}
+
+.content {
+  width: 100%;
+  position: relative;
+  background-size: contain;
+}
+
+/* ------------ Kitchen Background Image ------------*/
 img {
   width: 100%;
   height: auto;
@@ -20,15 +40,12 @@ li {
   padding: 1rem;
 }
 
-a {
-  text-decoration: none;
-  display: block;
-  padding: 8px;
+.centered {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
   color: #fff;
-}
-
-.content {
-  width: 100%;
-  position: relative;
-  background-size: contain;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
