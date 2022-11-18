@@ -121,9 +121,7 @@ li {
   transform: translate(-50%, -50%);
 }
 
-.pictures {
-  max-height: 400px;
-  max-width: 400px;
-  display: flex;
-  justify-content: space-between;
+.menu-pics {
+  flex: 33.33%;
+  padding: 5px;
 }
